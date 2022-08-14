@@ -1,12 +1,62 @@
-.app-logo {
-  height: 64px;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+    background-color: #282d35;
 }
 
 nav {
   display: flex;
   align-items: center;
+  height: 90px;
+  background-color: #21222A;
+  padding: 32px 24px;
 }
 
-.mr-auto {
+.nav--title, .nav--text {
+  margin: 0;
+}
+
+.nav--title {
   margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+.nav--text {
+  color: #DEEBF8;
+}
+
+.nav--logo {
+  height: 30px;
+  margin-right: 8px;
+}
+
+main {
+  padding: 64px 32px;
+  color: #FFFFFF;
+  background-image: url('./images/react-icon-half.png');
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 40px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 48px;
+}
+
+.main--facts > li {
+  padding-block: 12px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
 }
