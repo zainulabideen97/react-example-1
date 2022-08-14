@@ -1,0 +1,12 @@
+.app-logo {
+  height: 64px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
